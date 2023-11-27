@@ -2,7 +2,7 @@
 ## Programación Funcional 
 <p><em><strong>Funciones de alto orden:</strong></em> Estas funciones tienen la peculidaridad de contener otras funciones como 
   parámetros de entrada o como salida [ como por ejemplo; filter(), map(), reduce()].</p>
-<hr style="color: #0056b2;" />
+<hr>
   EJEMPLO 1:
 
 <p><code><em>def apply_operation(x, operation):
@@ -29,6 +29,7 @@ print(double_three_times(5)) </em></code></p>
 
 <p><em><strong>Run:</strong></em></p>
 <p>10</p>
+<hr>
 <hr>
 <p><strong>FUNCIONES max() y min()</strong></p>
 <p>Las funciones max() y min() son herramientas para encontrar el valor <em>máximo</em> y <em>mínimo</em> en un iterable o entre varios argumentos. Estas funciones pueden ser utilizadas con una amplia gama de tipos de datos.</p>
