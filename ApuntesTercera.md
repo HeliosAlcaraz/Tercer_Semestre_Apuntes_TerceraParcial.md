@@ -2,7 +2,7 @@
 ## Programación Funcional 
 <p><em><strong>Funciones de alto orden:</strong></em> Estas funciones tienen la peculidaridad de contener otras funciones como 
   parámetros de entrada o como salida [ como por ejemplo; filter(), map(), reduce()].</p>
-<hr size="2px" color="black" />
+<hr style="color: #0056b2;" />
   EJEMPLO 1:
 
 <p><code><em>def apply_operation(x, operation):
