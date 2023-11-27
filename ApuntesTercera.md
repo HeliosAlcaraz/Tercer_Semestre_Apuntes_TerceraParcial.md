@@ -77,3 +77,10 @@ print(max(tuplas, key=len))</em></code></p>
 <p><em><strong>Run:</strong></em></p>
 <p>(2, 'dos', 'extra')</p>
 <hr>
+EJEMPLO 6:
+
+<p><code><em>estudiantes = [{'nombre': 'Ana', 'calificacion': 90}, {'nombre': 'Juan', 'calificacion': 85}]
+print(max(estudiantes, key=lambda x: x['calificacion']))</em></code></p>
+
+<p><em><strong>Run:</strong></em></p>
+<p>{'nombre': 'Ana', 'calificacion': 90}</p>
