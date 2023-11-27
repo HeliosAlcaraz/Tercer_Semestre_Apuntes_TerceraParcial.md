@@ -12,6 +12,9 @@ def double(x):
 result = apply_operation(5, double)
 print(result)</em></code></p>
 
+<p><em><strong>Run:</strong></em></p>
+<p>10</p>
+
   EJEMPLO 2:
 <p><code><em>def repeat_func(func, n):
     def new_func(x):
@@ -23,3 +26,6 @@ def double(x):
     return x * 2
 double_three_times = repeat_func(double, 3)
 print(double_three_times(5)) </em></code></p>
+
+<p><em><strong>Run:</strong></em></p>
+<p>10</p>
