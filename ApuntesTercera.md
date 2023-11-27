@@ -31,7 +31,7 @@ print(double_three_times(5)) </em></code></p>
 <p>10</p>
 <hr>
 <p><strong>FUNCIONES max() y min()</strong></p>
-Las funciones max() y min() son herramientas para encontrar el valor <em>máximo</em> y <em>mínimo</em> en un iterable o entre varios argumentos. Estas funciones pueden ser utilizadas con una amplia gama de tipos de datos.
+<p>Las funciones max() y min() son herramientas para encontrar el valor <em>máximo</em> y <em>mínimo</em> en un iterable o entre varios argumentos. Estas funciones pueden ser utilizadas con una amplia gama de tipos de datos.</p>
 
 Ambias pueden utilizarse con un parámetro <em>key</em> para especificar una función que se aplique a los elementos del iterable antes de realizar la comparación. Esto es muy útil para estructuras de datos más complejas como listas de diccionarios, donde se podría querer encontrar el elemento con el valor más bajo de una clave específica.
 
