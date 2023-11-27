@@ -41,3 +41,14 @@ EJEMPLO 1:
 
 <p><code><em>numeros = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
 print(max(numeros))</em></code></p>
+
+<p><em><strong>Run:</strong></em></p>
+<p>9</p>
+
+EJEMPLO 2:
+
+<p><code><em>caracteres = "hola mundo"
+print(max(caracteres))</em></code></p>
+
+<p><em><strong>Run:</strong></em></p>
+<p>u</p>
