@@ -84,3 +84,33 @@ print(max(estudiantes, key=lambda x: x['calificacion']))</em></code></p>
 
 <p><em><strong>Run:</strong></em></p>
 <p>{'nombre': 'Ana', 'calificacion': 90}</p>
+<hr>
+EJEMPLO 7:
+
+<p><code><em>listas = [[15, 5], [30, 40, 50], [5, 15]]
+print(max(listas, key=sum))</em></code></p>
+
+<p><em><strong>Run:</strong></em></p>
+<p>[30, 40, 50]</p>
+<hr>
+EJEMPLO 8:
+
+<p><code><em>listas = [[15, 5], [30, 40, 50], [5, 15]]
+print(sum(max(listas, key=sum)))</em></code></p>
+
+<p><em><strong>Run:</strong></em></p>
+<p>120</p>
+<hr>
+EJEMPLO 9:
+
+<p><code><em>class Persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+personas = [Persona("Santiago", 36), Persona("Israel", 36), Persona("Andrés", 23)]
+mayor = max(personas, key=lambda x: x.edad)
+print(mayor.nombre)</em></code></p>
+
+<p><em><strong>Run:</strong></em></p>
+<p>Santiago</p>
+<hr>
