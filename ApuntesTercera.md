@@ -53,3 +53,27 @@ print(max(caracteres))</em></code></p>
 
 <p><em><strong>Run:</strong></em></p>
 <p>u</p>
+<hr>
+EJEMPLO 3:
+
+<p><code><em>palabras = ["manzana", "banana", "cereza"]
+print(max(palabras))</em></code></p>
+
+<p><em><strong>Run:</strong></em></p>
+<p>manzana</p>
+<hr>
+EJEMPLO 4:
+
+<p><code><em>print(max(1, 2, 3, 4, 5))</em></code></p>
+
+<p><em><strong>Run:</strong></em></p>
+<p>5</p>
+<hr>
+EJEMPLO 5:
+
+<p><code><em>tuplas = [(1, 'uno'), (2, 'dos', 'extra'), (3, 'tres')]
+print(max(tuplas, key=len))</em></code></p>
+
+<p><em><strong>Run:</strong></em></p>
+<p>(2, 'dos', 'extra')</p>
+<hr>
