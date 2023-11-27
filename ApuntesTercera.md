@@ -19,9 +19,7 @@ print(result)</em></code></p>
           x = func(x)
           return x
     return new_func
-
 def double(x):
     return x * 2
-
 double_three_times = repeat_func(double, 3)
 print(double_three_times(5)) </em></code></p>
