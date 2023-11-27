@@ -45,7 +45,7 @@ print(max(numeros))</em></code></p>
 
 <p><em><strong>Run:</strong></em></p>
 <p>9</p>
-
+<hr>
 EJEMPLO 2:
 
 <p><code><em>caracteres = "hola mundo"
