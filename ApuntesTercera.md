@@ -26,6 +26,7 @@ def double(x):
     return x * 2
 double_three_times = repeat_func(double, 3)
 print(double_three_times(5)) </em></code></p>
-<hr>
+
 <p><em><strong>Run:</strong></em></p>
 <p>10</p>
+<hr>
