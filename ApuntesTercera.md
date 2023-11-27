@@ -114,3 +114,10 @@ print(mayor.nombre)</em></code></p>
 <p><em><strong>Run:</strong></em></p>
 <p>Santiago</p>
 <hr>
+EJEMPLO 10:
+
+<p><code><em>cadenas = ["hola", "mundo", "python"]
+print(max(cadenas, key=lambda x: ord(x[-1])))</em></code></p>
+
+<p><em><strong>Run:</strong></em></p>
+<p>mundo</p>
